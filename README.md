@@ -1,7 +1,7 @@
 # EnigmaCipherApp
 
 FINAL PROJECT 
-<br /><br />
+<br />
 VISUAL STUDIO 2019
 <br /><br />
 Course: BDAT1001-21F
@@ -9,11 +9,11 @@ Course: BDAT1001-21F
 Substituation Cipher Winform Application 
 <br />
 Language: C#, SQL
-<br />
+<br /><br />
 Author: Landon Lyle
 <br />
 ID2004121088
-<br />
+<br /><br /><br />
 Project Cipher
 <br />
 <br />
