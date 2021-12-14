@@ -42,6 +42,7 @@ namespace EnigmaCipherApp
             this.EncryptedMsgTextbox = new System.Windows.Forms.TextBox();
             this.EncryptedMsgLabel = new MetroFramework.Controls.MetroLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             usernameLabel = new System.Windows.Forms.Label();
             enigmaMessageLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bassDataSet)).BeginInit();
@@ -53,9 +54,9 @@ namespace EnigmaCipherApp
             usernameLabel.AutoSize = true;
             usernameLabel.Location = new System.Drawing.Point(116, 164);
             usernameLabel.Name = "usernameLabel";
-            usernameLabel.Size = new System.Drawing.Size(58, 13);
+            usernameLabel.Size = new System.Drawing.Size(42, 13);
             usernameLabel.TabIndex = 7;
-            usernameLabel.Text = "Username:";
+            usernameLabel.Text = "User #:";
             usernameLabel.Click += new System.EventHandler(this.usernameLabel_Click);
             // 
             // enigmaMessageLabel
@@ -63,17 +64,18 @@ namespace EnigmaCipherApp
             enigmaMessageLabel.AutoSize = true;
             enigmaMessageLabel.Location = new System.Drawing.Point(116, 190);
             enigmaMessageLabel.Name = "enigmaMessageLabel";
-            enigmaMessageLabel.Size = new System.Drawing.Size(91, 13);
+            enigmaMessageLabel.Size = new System.Drawing.Size(81, 13);
             enigmaMessageLabel.TabIndex = 9;
-            enigmaMessageLabel.Text = "Enigma Message:";
+            enigmaMessageLabel.Text = "Enter Message:";
             enigmaMessageLabel.Click += new System.EventHandler(this.enigmaMessageLabel_Click);
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(426, 77);
+            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel1.Location = new System.Drawing.Point(381, 77);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(197, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(254, 25);
             this.metroLabel1.TabIndex = 0;
             this.metroLabel1.Text = "Enter message below to encrypt";
             // 
@@ -124,7 +126,7 @@ namespace EnigmaCipherApp
             this.EncryptedMsgTextbox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.enigmaMessagesBindingSource, "EnigmaMessage", true));
             this.EncryptedMsgTextbox.Location = new System.Drawing.Point(260, 187);
             this.EncryptedMsgTextbox.Name = "EncryptedMsgTextbox";
-            this.EncryptedMsgTextbox.Size = new System.Drawing.Size(200, 20);
+            this.EncryptedMsgTextbox.Size = new System.Drawing.Size(478, 20);
             this.EncryptedMsgTextbox.TabIndex = 10;
             this.EncryptedMsgTextbox.TextChanged += new System.EventHandler(this.enigmaMessageTextBox_TextChanged);
             // 
@@ -141,11 +143,21 @@ namespace EnigmaCipherApp
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // metroLabel2
+            // 
+            this.metroLabel2.AutoSize = true;
+            this.metroLabel2.Location = new System.Drawing.Point(466, 161);
+            this.metroLabel2.Name = "metroLabel2";
+            this.metroLabel2.Size = new System.Drawing.Size(272, 19);
+            this.metroLabel2.TabIndex = 11;
+            this.metroLabel2.Text = "<-- (Please enter a number in the form box.)";
+            // 
             // EncryptFormPnl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1234, 411);
+            this.Controls.Add(this.metroLabel2);
             this.Controls.Add(usernameLabel);
             this.Controls.Add(this.UserIDTextBox);
             this.Controls.Add(enigmaMessageLabel);
@@ -178,5 +190,6 @@ namespace EnigmaCipherApp
         private System.Windows.Forms.TextBox EncryptedMsgTextbox;
         private MetroFramework.Controls.MetroLabel EncryptedMsgLabel;
         private System.Windows.Forms.Timer timer1;
+        private MetroFramework.Controls.MetroLabel metroLabel2;
     }
 }
