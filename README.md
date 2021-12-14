@@ -25,6 +25,6 @@ You will need to download SSMS (SQL Server Management Studio) to run the sql fil
 You will also need to change the connection string in Programs.cs to your SSMS database address.
 <br />
 <br />
-Database Password: password
+<h3>Database Password: password<h3 />
 <br />
-Database Username: admin
+<h3>Database Username: admin<h3 />
