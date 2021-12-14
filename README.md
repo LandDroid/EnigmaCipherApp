@@ -15,7 +15,7 @@ Author: Landon Lyle
 ID2004121088
 <br /><br /><br />
 <h2>Project Cipher</h2>
-<br />
+
 Application Name: CIPHER CRYPTOGRAPHY SERVICE
 <br />
 Date: December 13th, 2021
