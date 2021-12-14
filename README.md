@@ -26,4 +26,5 @@ You will also need to change the connection string in Programs.cs to your SSMS d
 <br />
 <br />
 Database Password: password
+<br />
 Database Username: admin
