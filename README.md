@@ -14,7 +14,7 @@ Author: Landon Lyle
 <br />
 ID2004121088
 <br /><br /><br />
-Project Cipher
+<h2>Project Cipher</h2>
 <br />
 <br />
 Application Name: CIPHER CRYPTOGRAPHY SERVICE
