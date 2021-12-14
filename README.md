@@ -13,7 +13,7 @@ Language: C#, SQL
 Author: Landon Lyle
 <br />
 ID2004121088
-<br /><br /><br />
+<br />
 <h2>Project Cipher</h2>
 
 Application Name: CIPHER CRYPTOGRAPHY SERVICE
