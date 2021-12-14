@@ -19,4 +19,11 @@ ID2004121088
 Application Name: CIPHER CRYPTOGRAPHY SERVICE
 <br />
 Date: December 13th, 2021
-
+<br />
+<br />
+You will need to download SSMS (SQL Server Management Studio) to run the sql file to install the database I designed.
+You will also need to change the connection string in Programs.cs to your SSMS database address.
+<br />
+<br />
+Database Password: password
+Database Username: admin
