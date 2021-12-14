@@ -2,11 +2,11 @@
 
 FINAL PROJECT 
 <br />
-BDAT1001-21F
+Course: BDAT1001-21F
 <br />
-Substituation Cipher Winform application 
+Substituation Cipher Winform Application 
 <br />
-C#
+Language: C#, SQL
 <br />
 Author: Landon Lyle
 <br />
@@ -16,5 +16,6 @@ Project Cipher
 <br />
 <br />
 Application Name: CIPHER CRYPTOGRAPHY SERVICE
+<br />
 Date: December 13th, 2021
 
